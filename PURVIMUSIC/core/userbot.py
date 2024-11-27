@@ -52,7 +52,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("Exampurrs")
-                await self.one.join_chat("FONT_CHANNEL_01")
+                await self.one.join_chat("Sanatani_Balak10")
             except:
                 pass
             assistants.append(1)
