@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓᴄσмє fσʀ 🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎ ʀєρσѕ ✪
+✪ ωεℓᴄσмє fσʀ 𝗦𝗽𝗼𝘁𝗶𝗳𝘆 ʀєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -29,27 +29,27 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/@ll_Spotify_bot?startgroup=true")
+          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/ll_Spotify_bot?startgroup=true")
         ],
         [
           InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/DPZ_STORE"),
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/TheFriendsChatting"),
           ],
                [
-                InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+                InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
 
 ],
 [
-              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-              InlineKeyboardButton("︎🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("︎𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
               ],
               [
-              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
 ],
 [
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝘀𝗽𝗼𝘁𝗶𝗳𝘆", url=f"https://github.com/Deepking88/DHPROP"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
